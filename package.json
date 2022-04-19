@@ -1,0 +1,32 @@
+{
+  "name": "products-admin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "format-money-js": "^1.4.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "os": "^0.1.2",
+    "require.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
